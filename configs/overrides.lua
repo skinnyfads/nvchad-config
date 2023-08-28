@@ -56,4 +56,14 @@ M.nvimtree = {
   },
 }
 
+M.nvterm = {
+  terminals = {
+    type_opts = {
+      horizontal = {
+        split_ratio = .5,
+      },
+    },
+  },
+}
+
 return M
